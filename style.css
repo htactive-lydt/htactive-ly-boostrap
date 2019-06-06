@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+body {
+    width: 100%;
+}
+
+
+/* .slide {
+    position: absolute;
+    z-index: -1;
+} */
+
+#myCarousel img {
+    width: 100vw !important;
+    height: auto;
+}
+
+header {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+#myCarousel .carousel-caption h2 {
+    display: block;
+    font-size: 50px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    width: 900px;
+}
+
+#myCarousel .carousel-caption p {
+    font-size: 36px;
+    margin-top: .625rem;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+
+/* 
+
+#logo {
+    position: absolute;
+    top: 30px;
+}
+
+.header-left {
+    padding-right: 0px;
+}
+
+.header-left .info {
+    position: absolute;
+    top: 30px;
+} */
+
+.logo_language {
+    width: 23px;
+    height: 17px;
+}
+
+.info .dropdown {
+    border-left: 1px solid #ffffff;
+}
+
+.header-content {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    right: 120px;
+}
+
+.address a {
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    background: url(./images/maps.svg) no-repeat center center;
+    background-size: 100%;
+    margin-left: .5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info ul li a {
+    color: #ffffff;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li {
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+
+.menu ul .active {
+    border-bottom: 1.5px solid #ffffff;
+}
+
+.service {
+    background: #fbfbfb;
+    padding-top: 30px;
+}
+
+nav .nav-pills li {
+    margin-left: 0px;
+}
+
+.service-title {
+    font-size: 12px;
+    color: #9b9b9b;
+    font-weight: 700;
+    display: block;
+    margin-bottom: .625rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.c-benefit__tab li.active a,
+.c-benefit__tab li:hover a {
+    color: #145c90;
+}
+
+.service ul li {
+    font-size: 36px;
+    color: #9b9b9b;
+    font-weight: 700;
+    display: inline-block;
+    font-family: 'UTMNeutra';
+}
+
+.service .more a {
+    font-size: 12px;
+    clear: both;
+    font-weight: 700;
+    color: #0c7ebb;
+    display: inline-block;
+    position: relative;
+    padding-right: .9375rem;
+    text-transform: uppercase;
+}
+
+.service ul li a {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+.service ul {
+    margin-left: -136px;
+    margin-bottom: 50px;
+}
+
+.service-card li {
+    width: 270px;
+    height: 275px;
+    padding: .625rem;
+}
+
+.service-card-body {
+    padding: 1.875rem;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .07);
+    border-radius: 2px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.service .service-card {
+    margin-left: 0px;
+}
+
+.service-card-body .title {
+    margin-top: 1.25rem;
+    font-size: 15px;
+    color: #2c2c2c;
+    display: block;
+    font-weight: bold;
+    font-family: 'UTMNeutra';
+}
+
+.service-card-body .price {
+    margin-top: 1.25rem;
+    font-size: 22px;
+    color: #2c2c2c;
+    display: block;
+    font-weight: bold;
+    font-family: 'UTMNeutra';
+}
+
+.service-card-body .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-card-body .unit-price {
+    font-size: 13px;
+    color: #2c2c2c;
+    display: block;
+    text-transform: capitalize;
+    margin-top: .9375rem;
+}
+
+.event {
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+.e-heading-page {
+    font-size: 35px;
+    font-family: 'UTMNeutra';
+    color: #2c2c2c;
+    line-height: 3.125rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.event-img {
+    position: relative;
+}
+
+.box-info-card {
+    display: flex;
+    color: #fff;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    position: absolute;
+    left: 14px;
+    bottom: 0;
+    padding: .9375rem;
+    background-image: linear-gradient(-180deg, transparent 0%, #000 100%);
+}
